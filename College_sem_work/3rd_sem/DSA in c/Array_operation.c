@@ -7,7 +7,7 @@ int main()
     for (i = 0; i < 5; i++)
         printf("%d ", arr[i]);
     printf("\n");
-    printf("Enter a position to inser: ");
+    printf("Enter a position to insert: ");
     scanf("%d", &pos);
 
     printf("Enter a number to insert: ");
@@ -35,7 +35,7 @@ int main()
         for (i = index; i < 5; i++)
             arr[i] = arr[i + 1];
         printf("The array after deleting the element is: ");
-        for (i = 0; i < 52; i++)
+        for (i = 0; i < 5; i++)
             printf("%d ", arr[i]);
         printf("\n");
         return 0;
